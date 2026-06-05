@@ -106,7 +106,7 @@
 - [ ] DATABASE_URL atualizado para produção
 - [ ] JWT_SECRET seguro definido
 - [ ] Variáveis de ambiente configuradas no hosting
-- [ ] Build sem erros (`pnpm build`)
+- [ ] Build sem erros (`npm run build`)
 - [ ] Testes de integração em produção
 
 ## Performance
@@ -135,4 +135,4 @@ Todos os componentes estão implementados e testados. Pronto para:
 - ✅ Escala para múltiplos usuários
 - ✅ Integração com MySQL em produção
 
-**Próximo Passo**: Execute `pnpm install` e `npx ts-node prisma/seed.ts` para começar!
+**Próximo Passo**: Execute `npm install` e `npx ts-node prisma/seed.ts` para começar!

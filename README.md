@@ -6,7 +6,7 @@ Um e-commerce elegante e completo com Next.js, MySQL e Prisma ORM.
 
 ### 1. Instalar Dependências
 ```bash
-pnpm install
+npm install
 ```
 
 ### 2. Configurar Banco de Dados
@@ -34,7 +34,7 @@ npx ts-node prisma/seed.ts
 
 ### 4. Rodar Dev
 ```bash
-pnpm dev
+npm run dev
 ```
 
 Acesse: http://localhost:3000

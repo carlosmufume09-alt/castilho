@@ -97,14 +97,14 @@ Admin Login:
 ================================================================================
 
 1. Instalar dependências:
-   $ pnpm install
+   $ npm install
 
 2. Setup banco de dados:
    $ npx prisma migrate dev --name init
    $ npx ts-node prisma/seed.ts
 
 3. Rodar servidor:
-   $ pnpm dev
+   $ npm run dev
 
 4. Acessar:
    Vitrine:      http://localhost:3000

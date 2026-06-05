@@ -186,7 +186,7 @@
 ### Iniciar o servidor
 ```bash
 cd /vercel/share/v0-project
-pnpm dev
+npm run dev
 ```
 
 ### Acessar URLs

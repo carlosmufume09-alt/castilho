@@ -87,7 +87,7 @@ Documentação:
 
 ### 1. Instalar Dependências
 ```bash
-pnpm install
+npm install
 ```
 
 ### 2. Setup do Banco de Dados
@@ -98,7 +98,7 @@ npx ts-node prisma/seed.ts
 
 ### 3. Rodar o Desenvolvimento
 ```bash
-pnpm dev
+npm run dev
 ```
 
 ### 4. Acessar

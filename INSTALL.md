@@ -3,7 +3,7 @@
 ## Requisitos
 - Node.js 18+
 - MySQL 8.0+ ou SQLite
-- pnpm (recomendado) ou npm
+- npm
 
 ## Instalação Rápida
 
@@ -15,8 +15,6 @@ cd shells-fashion
 
 ### 2. Instalar Dependências
 ```bash
-pnpm install
-# ou
 npm install
 ```
 
@@ -67,8 +65,6 @@ npx ts-node prisma/seed.ts
 
 ### 6. Iniciar o Servidor
 ```bash
-pnpm dev
-# ou
 npm run dev
 ```
 
@@ -102,13 +98,13 @@ shells-fashion/
 
 ```bash
 # Desenvolvimento
-pnpm dev
+npm run dev
 
 # Build produção
-pnpm build
+npm run build
 
 # Iniciar produção
-pnpm start
+npm run start
 
 # Prisma Studio (visualizar banco)
 npx prisma studio
@@ -153,7 +149,7 @@ npx ts-node prisma/seed.ts
 ### Limpar cache
 ```bash
 rm -rf .next
-pnpm dev
+npm run dev
 ```
 
 ## Deploy
@@ -166,8 +162,8 @@ pnpm dev
 
 ### Servidor Próprio
 ```bash
-pnpm build
-pnpm start
+npm run build
+npm run start
 ```
 
 ---

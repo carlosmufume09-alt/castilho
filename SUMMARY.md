@@ -80,7 +80,7 @@ prisma/
 
 #### 1. Instalar
 ```bash
-pnpm install
+npm install
 ```
 
 #### 2. Setup Banco
@@ -94,7 +94,7 @@ npx ts-node prisma/seed.ts
 
 #### 3. Rodar
 ```bash
-pnpm dev
+npm run dev
 ```
 
 ### 📱 URLs

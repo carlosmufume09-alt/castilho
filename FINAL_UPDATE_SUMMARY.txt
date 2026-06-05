@@ -259,14 +259,14 @@ Total de Linhas Adicionadas:
 ================================================================================
 
 1. Instalar:
-   $ pnpm install
+   $ npm install
 
 2. Database:
    $ npx prisma migrate dev --name init
    $ npx ts-node prisma/seed.ts
 
 3. Dev:
-   $ pnpm dev
+   $ npm run dev
 
 4. Testar:
    • Home: http://localhost:3000

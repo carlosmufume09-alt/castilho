@@ -5,7 +5,7 @@
 ### Passo 1: Instalar Dependências
 ```bash
 cd /vercel/share/v0-project
-pnpm install
+npm install
 ```
 
 ### Passo 2: Configurar Banco MySQL
@@ -61,7 +61,7 @@ npx ts-node prisma/seed.ts
 ### Passo 4: Iniciar Servidor
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 Você verá:
@@ -147,7 +147,7 @@ sudo systemctl start mysql       # Linux
 
 ### "Cannot find module @prisma/client"
 ```bash
-pnpm install
+npm install
 npx prisma generate
 ```
 
@@ -231,8 +231,8 @@ vercel deploy
 ### Manualmente
 
 ```bash
-pnpm build
-pnpm start
+npm run build
+npm start
 ```
 
 ---

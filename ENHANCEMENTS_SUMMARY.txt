@@ -159,7 +159,7 @@ Cria efeito "onda" profissional!
                            BUILD FINAL STATUS
 ================================================================================
 
-Build Command: `pnpm build`
+Build Command: `npm run build`
 Result: ✅ SUCCESS
 
 Routes Generated:
@@ -204,14 +204,14 @@ Arquivos inclusos:
 ================================================================================
 
 1. Instalar:
-   $ pnpm install
+   $ npm install
 
 2. Setup Database:
    $ npx prisma migrate dev --name init
    $ npx ts-node prisma/seed.ts
 
 3. Rodar Dev:
-   $ pnpm dev
+   $ npm run dev
 
 4. Acessar:
    Home:   http://localhost:3000

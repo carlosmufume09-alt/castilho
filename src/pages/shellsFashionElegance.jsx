@@ -4,11 +4,13 @@ import React, { useState, useEffect } from 'react';
 import './shellsFashionElegance.css';
 
 const ShellsFashion = () => {
-  const API_HOST = import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL.replace(/\/$/, '') : '';
+  const API_HOST = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
   const API_BASE_URL = API_HOST ? `${API_HOST}/api/products` : '/api/products';
   const resolveImageUrl = (imagePath) => {
     if (!imagePath) return '';
-    return imagePath.startsWith('http') ? imagePath : `${API_HOST}${imagePath}`;
+    if (imagePath.startsWith('http')) return imagePath;
+    const normalized = imagePath.replace(/^\.\//, '/');
+    return `${API_HOST}${normalized.startsWith('/') ? normalized : `/${normalized}`}`;
   };
 
   const normalizeProduct = (product) => ({

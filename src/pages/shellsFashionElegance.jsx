@@ -542,7 +542,7 @@ const ShellsFashion = () => {
             <div className="profile-header">
               <div className="profile-image-container">
                 <img 
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop" 
+                  src="./IMG-20260526-WA0003.jpg" 
                   alt="Proprietária" 
                   className="profile-image"
                 />

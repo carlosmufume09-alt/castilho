@@ -375,7 +375,7 @@ const ShellsFashion = () => {
           {/* HERO SECTION */}
           <section className="hero-section">
             <div className="hero-content">
-              <h2 className="hero-title">Descobra Elegância e Estilo</h2>
+              <h2 className="hero-title">Descubra Elegância e Estilo</h2>
               <p className="hero-subtitle">Coleção premium de moda para mulheres sofisticadas</p>
               <p className="hero-location">📍 Maputo - KHONGOLOTE | 🌟 Frete Grátis</p>
             </div>

@@ -68,9 +68,9 @@ const ShellsFashion = () => {
     fetchProducts();
   }, []);
 
-  // ============ OBTER PRODUTOS ALEATÓRIOS (20 produtos) ============
+  // ============ OBTER PRODUTOS ALEATÓRIOS (1000 produtos) ============
   const randomProducts = products.length > 0 
-    ? [...products].sort(() => 0.5 - Math.random()).slice(0, 20)
+    ? [...products].sort(() => 0.5 - Math.random()).slice(0, 1000)
     : [];
 
   // ============ FILTRAR PRODUTOS ============
